@@ -6,7 +6,7 @@ clarifai_api = ClarifaiApi()
 clarifai_api.CLIENT_ID = 'su3n1HOTBFHOA-pB_RzC9jH0frBMO70-whHo2smX'
 clarifai_api.access_token = 'FFQGf04WcDuZx5Ec3JOuYgPpLM6JUT'
 
-class TkFileDialogExample(Tkinter.Frame):
+class TaggedYourPic(Tkinter.Frame):
   
   def __init__(self, root):
 
@@ -137,9 +137,9 @@ if __name__=='__main__':
   root = Tkinter.Tk()
   root.resizable(width=True, height=True)
   root.geometry('{}x{}'.format(306, 395))
-  TkFileDialogExample.folderpath = ''
-  TkFileDialogExample.newfolderpath = ''
-  TkFileDialogExample.AllTagList = []
-  TkFileDialogExample.photolist = []
-  TkFileDialogExample(root).grid()
+  TaggedYourPic.folderpath = ''
+  TaggedYourPic.newfolderpath = ''
+  TaggedYourPic.AllTagList = []
+  TaggedYourPic.photolist = []
+  TaggedYourPic(root).grid()
   root.mainloop()
